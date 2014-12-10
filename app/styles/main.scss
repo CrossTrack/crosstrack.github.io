@@ -1,23 +1,23 @@
-// General
+// Colors
 // ======================================
 
 $red       :#BE1D29;
-// $blue         :#0084d9;
-// $blue-dark    :#0061a0;
-// $color-border :#c2c2c2;
-// $btn-color    :$blue;
-// $white        : #fff;
+$green     :#6AC994;
+$charcoal  :#232323;
+$dark-grey :#2C2C2C;
+$grey      :#706f73;
+
 
 
 html {
   height: 100%;
 }
+
 body {
   height: 100%;
   margin: 0;
   padding: 0;
-  padding-top: 70px;
-  background: #232323;
+  background: $charcoal;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 300;
@@ -28,6 +28,23 @@ body {
 
 .main-color {
     color: $red;
+}
+
+.glyphicon-chevron-down {
+    font-size: 450%;
+    color: $dark-grey;
+
+}
+
+a.glyphicon-chevron-down {
+    text-decoration: none;
+
+}
+
+a.glyphicon-chevron-down:hover {
+    text-decoration: none;
+    color: $grey;
+
 }
 /*---------------------------------------
    Typography
@@ -140,19 +157,25 @@ h5 {
 
 
 // Home
-.logo {
+.logo-text {
   font-family: 'Stardos Stencil', 'Arial';
+  font-size: 4em;
+  line-height: 2em;
+  margin-top: 150px;
+  margin-bottom: 60px;
 }
 
-.intro {
+.tagline {
   font-family: 'Lane', sans-serif;
   font-weight: normal;
+  // font-size: 150%;
+  margin-bottom: 100px;
 }
 main {
   height: 100%;
 }
 .cd-fixed-bg {
-  min-height: 90%;
+  min-height: 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
@@ -161,6 +184,7 @@ main {
 .cd-fixed-bg.cd-bg-1 {
   position: relative;
   background-image: url('images/bg-intro.jpg');
+  // background-position:  2em 20%;
 }
 .cd-fixed-bg.cd-bg-2 {
   background-image: url('images/bg-weightrack.jpg');
@@ -208,7 +232,7 @@ background: rgba(0, 0, 0, 0.54902) ;
   background-color: #3d3536;
 }*/
 .cd-scrolling-bg.cd-color-2 {
-  background-color: #99a478;
+  background-color: $charcoal;
 }
 .cd-scrolling-bg.cd-color-3 {
   background-color: #b4d7a8;
@@ -223,7 +247,7 @@ background: rgb(242, 84, 84);
 .features {
     padding-top: 80px;
     padding-bottom: 30px;
-    background: #232323;
+    background: $charcoal;
 }
 
 .features .features-left {
@@ -268,13 +292,16 @@ background: rgb(242, 84, 84);
 }
 
 .features .phone-image {
-    max-width: 250px;
-    margin: auto;
-    margin-bottom: 80px;
+    max-width: 300px;
+    margin-left: 50%;
+    margin-bottom: 40px;
 }
 
 .features .phone-image img {
     width: 100%;
+}
+.feature-details {
+    width: 450px;
 }
 
 /* --------------------------------------
@@ -440,7 +467,7 @@ background: rgb(242, 84, 84);
         padding-top: 2%;
     }
 
-    header .intro-section .intro {
+    header .intro-section .tagline {
         margin-bottom: 16px;
     }
 
@@ -497,7 +524,7 @@ background: rgb(242, 84, 84);
         margin-top: 0;
         font-weight: bold;
     }
-    .full-screen .intro-section .intro {
+    .full-screen .intro-section .tagline {
        margin-bottom: 0;
 
     }

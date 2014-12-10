@@ -33,36 +33,13 @@
 </head>
 <body>
 
-  <!-- nav -->
-  <nav class="navbar navbar-default navbar-fixed-top" role="navigation" >
-    <div class="container-fluid">
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse1">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="#">Activ8</a>
-      </div>
-      <!-- NAVIGATION LINKS -->
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="collapse1">
-        <ul class="nav navbar-nav navbar-right nav-menu">
-          <li><a href="#intro-activ8">About</a></li>
-          <li><a href="https://github.com/CrossTrack/crosstrack.github.io">Docs</a></li>
-          <li><a href="#contact-activ8">Contact</a></li>
-        </ul>
-      </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
-  </nav>
+ <!-- nav would go here -->
 
   <main class="cd-main-content">
     <!-- =========================
          HOME
     ============================== -->
-    <div class="cd-fixed-bg cd-bg-1 o-red" id="home">
+    <div class="cd-fixed-bg cd-bg-1" id="home">
 
     <div class="color-overlay">
       <!-- LOGO -->
@@ -71,9 +48,9 @@
 
           <div class="row">
             <div class="col-md-6 col-sm-6">
-              <h1 class="o-red text-center">Activ8</h1>
+              <h1 class="logo-text white-text">Activ8</h1>
               <div class="intro-section">
-              <h1 class="intro">Fitness Goals At Your Fingertips.</h1>
+              <h2 class="h1 tagline">Fitness Goals At Your Fingertips.</h2>
 
               <!-- BUTTON -->
               <a class="btn btn-default btn-lg standard-button" href="#intro-activ8">Learn more</a>
@@ -86,7 +63,7 @@
     <!-- =========================
          FEATURES (was INTRO)
     ============================== -->
-    <div class="cd-scrolling-bg cd-color-1 features o-blue" id="intro-activ8">
+    <div class="cd-scrolling-bg cd-color-1 features" id="intro-activ8">
 
       <div class="cd-container">
 
@@ -97,9 +74,9 @@
          <h2 class="white-text">Features You Need</h2>
          <div class="colored-line">
          </div>
-         <div class="section-description">
+<!--          <div class="section-description">
           Activ8 helps you track your progress, stay motivated and train better.
-        </div>
+        </div> -->
         <div class="colored-line">
         </div>
       </section><!-- /.section-header -->
@@ -107,82 +84,18 @@
 
         <div class="row">
           <!-- FEATURES LEFT -->
-          <section class="login-screen col-sm-4 col-md-4 o-purple">
-
-            <!-- FEATURE -->
-            <div class="feature o-yellowrod">
-
-              <!-- ICON -->
-              <div class="icon-container o-green">
-                <div class="icon o-red">
-                  <i class="icon_pencil"></i>
-                </div>
-              </div>
-
-              <!-- FEATURE HEADING AND DESCRIPTION -->
-              <div class="feature-details">
-                <h4 class="main-color">Record Workouts</h4>
-                <p>
-                 Log workouts in seconds. Keep track of all of your Personal Records for when you hit that big lift.
-               </p>
-             </div>
-
-           </div>
-           <!-- /END SINGLE FEATURE -->
-
-           <!-- FEATURE -->
-           <div class="feature">
-
-            <!-- ICON -->
-            <div class="icon-container">
-              <div class="icon">
-                <i class="icon_genius"></i>
-              </div>
+          <section class="login-screen col-sm-6 col-md-6">
+            <!-- PHONE IMAGE -->
+            <div class="phone-image">
+              <img src="images/loginscreen.png" alt="">
             </div>
-
-            <!-- FEATURE HEADING AND DESCRIPTION -->
-            <div class="feature-details">
-               <h4 class="main-color">Set Goals</h4>
-              <p>
-               Stay focused by setting step, weight and activity goals.
-             </p>
-           </div>
-
-         </div>
-         <!-- /END SINGLE FEATURE -->
-
-         <!-- FEATURE -->
-         <div class="feature">
-
-          <!-- ICON -->
-          <div class="icon-container">
-            <div class="icon">
-              <i class="icon_star"></i>
-            </div>
-          </div>
-
-          <!-- FEATURE HEADING AND DESCRIPTION -->
-          <div class="feature-details">
-            <h4 class="main-color">Push Your Progress</h4>
-            <p>
-              A few quick entries and your workout is logged and compared against prior workouts to track your progress.
-            </p>
-          </div>
-
-        </div>
-        <!-- /END SINGLE FEATURE -->
-      </section><!-- /END FEATURES LEFT -->
+          </section><!-- /END FEATURES LEFT -->
 
 
-    <!-- PHONE IMAGE -->
-    <div class="col-md-4 col-sm-4 o-red">
-      <div class="phone-image">
-        <img src="images/loginscreen.png" alt="">
-      </div>
-    </div>
+
 
     <!-- FEATURES RIGHT -->
-    <div class="col-md-4 col-sm-4 features-right">
+    <div class="col-md-6 col-sm-6 features-right">
 
       <!-- FEATURE -->
       <div class="feature">
@@ -195,7 +108,7 @@
         </div>
 
         <!-- FEATURE HEADING AND DESCRIPTION -->
-        <div class="fetaure-details">
+        <div class="feature-details">
           <h4 class="main-color">Record Workouts</h4>
           <p>
              Log workouts in seconds. Keep track of all of your Personal Records for when you hit that big lift.
@@ -216,7 +129,7 @@
         </div>
 
         <!-- FEATURE HEADING AND DESCRIPTION -->
-        <div class="fetaure-details">
+        <div class="feature-details">
           <h4 class="main-color">Set Goals</h4>
           <p>
              Stay focused by setting step, weight and activity goals.
@@ -238,7 +151,7 @@
         </div>
 
         <!-- FEATURE HEADING AND DESCRIPTION -->
-        <div class="fetaure-details">
+        <div class="feature-details">
           <h4 class="main-color">Push Your Progress</h4>
           <p>
              A few quick entries and your workout is logged and compared against prior workouts to track your progress.
@@ -253,27 +166,17 @@
 
 
 
+        </div><!-- /.row -->
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-        </div>
-          <p class="main-description col-xs-12 col-md-6">
+     <!--      <p class="main-description col-xs-12 col-md-6">
             Activ8 is a great way to stay active and to really stay on course to reaching your personal
             fitness goals.
-          </p>
-          <p><a class="btn btn-default btn-lg standard-button" href="#about-activ8" role="button">Take a look inside Activ8.</a></p>
+          </p> -->
+
+<!--           <p><a class="btn btn-default btn-lg standard-button" href="#about-activ8" role="button">Take a look inside Activ8.</a></p> -->
+
+           <a class="glyphicon glyphicon-chevron-down" href="#moreonActiv8" role="button"></a>
 
     </div><!-- /.cd-container -->
   </div><!-- /.features -->
@@ -284,15 +187,12 @@
     <!-- =========================
          ABOUT (k's Features)
     ============================== -->
-    <div class="cd-scrolling-bg cd-color-2 o-purple features">
+    <div class="cd-scrolling-bg cd-color-2 features">
       <div class="cd-container">
         <div id="about-activ8" class="product-description">
 
 
           <div class="row">
-
-
-            <a class="btn btn-default btn-lg standard-button" href="#moreonActiv8" role="button">Can I get rid of this btn?</a>
 
             <!-- FEATURES LEFT -->
             <section class="main-description col-md-4 col-sm-4 features-left">
@@ -305,20 +205,21 @@
             </section>
 
             <section class="dash col-xs-12 col-md-6">
-              <img src="images/dashboard.png" alt="" class="thumbnail">
+              <img src="images/2-iphone.png" alt="" >
             </section>
+
           </div>
+           <a class="glyphicon glyphicon-chevron-down" href="#moreonActiv8" role="button"></a>
+
         </div>
       </div>
     </div>
-
     <div class="cd-fixed-bg cd-bg-3">
     </div>
-
     <!-- =========================
          MORE
     ============================== -->
-    <div class="cd-scrolling-bg cd-color-3 o-green" id="moreonActiv8">
+    <div class="cd-scrolling-bg cd-color-3" id="moreonActiv8">
       <div class="cd-container">
         <div id="moreonActiv8" class="product-description">
           <h2>Ease of use.</h2>
@@ -341,7 +242,7 @@
     <!-- =========================
          CONTACT
     ============================== -->
-    <div class="cd-scrolling-bg cd-color-1 o-yellow" id="contact-activ8" class="product-description">
+    <div class="cd-scrolling-bg cd-color-1" id="contact-activ8" class="product-description">
       <div class="cd-container">
         <a class="btn btn-default btn-lg standard-button download" href="" role="button">Download Activ8</a>
         <p class="main-description col-xs-12 col-md-12">
@@ -355,7 +256,33 @@
   </main>
 
 
-
+    <!-- =========================
+        TEMP
+    ============================== -->
+ <!-- nav -->
+  <!-- <nav class="navbar navbar-default navbar-fixed-top" role="navigation" >
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Activ8</a>
+      </div>
+      <div class="collapse navbar-collapse" id="collapse1">
+        <ul class="nav navbar-nav navbar-right nav-menu">
+          <li><a href="#intro-activ8">About</a></li>
+          <li><a href="https://github.com/CrossTrack/crosstrack.github.io">Docs</a></li>
+          <li><a href="#contact-activ8">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav> -->
+      <!-- =========================
+        /TEMP
+    ============================== -->
 
 
 
