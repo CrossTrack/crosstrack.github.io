@@ -138,7 +138,7 @@ main {
   height: 100%;
 }
 .cd-fixed-bg {
-  min-height: 50%;
+  min-height: 90%;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
@@ -146,16 +146,16 @@ main {
 }
 .cd-fixed-bg.cd-bg-1 {
   position: relative;
-  background-image: url('images/bg-home.jpg');
+  background-image: url('images/bg-intro.jpg');
 }
 .cd-fixed-bg.cd-bg-2 {
-  background-image: url('images/weightrack.jpg');
+  background-image: url('images/bg-weightrack.jpg');
 }
 .cd-fixed-bg.cd-bg-3 {
-  background-image: url('images/outthegym.jpg');
+  background-image: url('images/bg-track.jpg');
 }
 .cd-fixed-bg.cd-bg-4 {
-  background-image: url('images/inthegym5.jpg');
+  background-image: url('images/bg-strength.jpg');
 }
 .cd-scrolling-bg {
   min-height: 100%;
