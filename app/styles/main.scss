@@ -1,8 +1,14 @@
-/* COLORS
-* ----------
-* #BE1D29 - red
-*
-*/
+// General
+// ======================================
+
+$red       :#BE1D29;
+// $blue         :#0084d9;
+// $blue-dark    :#0061a0;
+// $color-border :#c2c2c2;
+// $btn-color    :$blue;
+// $white        : #fff;
+
+
 html {
   height: 100%;
 }
@@ -18,6 +24,10 @@ body {
   color: #c8c8c8;
   line-height: 28px;
   text-align: center;
+}
+
+.main-color {
+    color: $red;
 }
 /*---------------------------------------
    Typography
@@ -52,13 +62,13 @@ h2 {
 }
 
 h1 {
-    font-size: 3.75rem;
-    line-height: 4.688rem;
+    font-size: 3.95rem;
+    line-height: 4.698rem;
 }
 
 h2 {
-    font-size: 3.125rem;
-    line-height: 4.063rem;
+    font-size: 3.325rem;
+    line-height: 4.083rem;
 }
 
 h3 {
@@ -84,7 +94,7 @@ h5 {
 .standard-button,
 .standard-button2 {
     font-size: 18px;
-    background-color:#BE1D29;
+    background-color:$red;
     font-weight: 400 !important;
     border-radius: 4px !important;
     text-shadow: 0 !important;
@@ -129,6 +139,10 @@ h5 {
 }
 
 
+// Home
+.logo {
+  font-family: 'Stardos Stencil', 'Arial';
+}
 
 .intro {
   font-family: 'Lane', sans-serif;
@@ -202,21 +216,7 @@ background: rgba(0, 0, 0, 0.54902) ;
 .colored-line, .colored-line-left {
 background: rgb(242, 84, 84);
 }
-.o-red {
-  outline: red solid 4px;
-}
-.o-blue {
-  outline: blue solid 4px;
-}
-.o-purple {
-  outline: purple solid 4px;
-}
-.o-green {
-  outline: green solid 4px;
-}
-.o-yellow {
-  outline: yellow solid 4px;
-}
+
 /* --------------------------------------
  FEATURES
 -----------------------------------------*/
@@ -515,3 +515,29 @@ background: rgb(242, 84, 84);
         padding: 8px 5px;
     }
 }
+
+// temp
+.o-purple {
+    outline: solid thistle 2px;
+}
+
+.o-yellow {
+    outline: solid goldenrod 2px;
+}
+
+.o-green {
+    outline: solid yellowgreen 2px;
+    background-color: yellowgreen;
+}
+
+.o-yellowrod {
+    outline: solid goldenrod 2px;
+}
+
+.o-red {
+  outline: red solid 2px;
+}
+.o-blue {
+  outline: blue solid 2px;
+}
+
