@@ -157,7 +157,6 @@ h5 {
 }
 
 
-// Home
 .logo-text {
   font-family: 'Stardos Stencil', 'Arial';
   font-size: 4em;
@@ -169,7 +168,6 @@ h5 {
 .tagline {
   font-family: 'Lane', sans-serif;
   font-weight: normal;
-  // font-size: 150%;
   margin-bottom: 100px;
 }
 main {
@@ -292,12 +290,12 @@ background: rgb(242, 84, 84);
     border-radius: 50%;
     line-height: 55px;
     font-size: 30px;
-    // text-align: center;
+    /*text-align: center;*/
 }
 
 .features .phone-image {
-    max-width: 50%; // was 300px
-    margin: auto;
+    max-width: 50%; /*was 300px*/
+    margin: 0 auto;
     margin-bottom: 40px;
 }
 
@@ -305,7 +303,7 @@ background: rgb(242, 84, 84);
     width: 100%;
 }
 .feature-details {
-    // width: 450px;
+   /* width: 450px;*/
     font-size: 15pt;
 }
 
@@ -561,30 +559,5 @@ background: rgb(242, 84, 84);
         font-size: 14px;
         padding: 8px 5px;
     }
-}
-
-// temp
-.o-purple {
-    outline: solid thistle 2px;
-}
-
-.o-yellow {
-    outline: solid goldenrod 2px;
-}
-
-.o-green {
-    outline: solid yellowgreen 2px;
-    background-color: yellowgreen;
-}
-
-.o-yellowrod {
-    outline: solid goldenrod 2px;
-}
-
-.o-red {
-  outline: red solid 2px;
-}
-.o-blue {
-  outline: blue solid 2px;
 }
 
